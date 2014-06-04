@@ -20,9 +20,9 @@ Param(
 	[Parameter(Mandatory=$True,Position=2)]
 	[string]$URL,
 	[Parameter(Mandatory=$True,Position=3)]
-	[string]$MinLength,
+	[int]$MinLength,
 	[Parameter(Mandatory=$False,Position=4)]
-	[string]$MaxLength
+	[int]$MaxLength
 )
 
 #Main#
